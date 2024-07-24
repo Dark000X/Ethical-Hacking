@@ -1,0 +1,16 @@
+			    ....OVER THE WIRE....
+LEVELS		PASSWORDS			COMMANDS
+
+bandit0 - bandit0			   - 
+bandit1 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If - 
+bandit2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx - 
+bandit3 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx - 
+bandit4 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ - 
+bandit5 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw - find -type f | xargs file
+bandit6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG - find -type f -size 1033c ! -executable
+bandit7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj - find / -type f -user bandit7 -group bandit6 -size 33c
+bandit8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc - cat data.txt | grep millionth
+bandit9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM - cat data.txt | uniq text
+bandit10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey - strings data.txt | grep =
+bandit11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr - base64 -d data.txt
+bandit12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4 - cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
